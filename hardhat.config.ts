@@ -22,6 +22,9 @@ const config: HardhatUserConfig = {
       },
     },
   },
+  mocha: {
+    timeout: 60000,
+  },
   gasReporter: {
     currency: 'USD',
     gasPrice: 100,
