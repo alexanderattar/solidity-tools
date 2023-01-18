@@ -1,0 +1,1556 @@
+{
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "name": "log",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "log_address",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "log_bytes",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "log_bytes32",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "name": "log_int",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "val",
+          "type": "address"
+        }
+      ],
+      "name": "log_named_address",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes",
+          "name": "val",
+          "type": "bytes"
+        }
+      ],
+      "name": "log_named_bytes",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes32",
+          "name": "val",
+          "type": "bytes32"
+        }
+      ],
+      "name": "log_named_bytes32",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "int256",
+          "name": "val",
+          "type": "int256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "decimals",
+          "type": "uint256"
+        }
+      ],
+      "name": "log_named_decimal_int",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "val",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "decimals",
+          "type": "uint256"
+        }
+      ],
+      "name": "log_named_decimal_uint",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "int256",
+          "name": "val",
+          "type": "int256"
+        }
+      ],
+      "name": "log_named_int",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "val",
+          "type": "string"
+        }
+      ],
+      "name": "log_named_string",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "val",
+          "type": "uint256"
+        }
+      ],
+      "name": "log_named_uint",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "name": "log_string",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "log_uint",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "logs",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "IS_TEST",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "failed",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "magicNumberIs42",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "setUp",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "testExample",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "testFailSubtract43",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "testMagicNumberIsThree",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x60806040526000805460ff1916600117905534801561001d57600080fd5b506106178061002d6000396000f3fe608060405234801561001057600080fd5b506004361061007d5760003560e01c80633f5a4a2a1161005b5780633f5a4a2a1461009c578063ba414fa6146100a4578063e295c00a146100ca578063fa7626d4146100d257600080fd5b80630a9254e4146100825780631a6984b71461008c5780633ce7a75c14610094575b600080fd5b61008a6100df565b005b61008a61015d565b61008a61016c565b61008a610186565b6000546100b690610100900460ff1681565b604051901515815260200160405180910390f35b61008a610190565b6000546100b69060ff1681565b602a6002556040516003906100f39061045d565b908152602001604051809103906000f080158015610115573d6000803e3d6000fd5b50600180547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b61016a600254602a610228565b565b602b6002600082825461017f919061046a565b9091555050565b61016a60016103bd565b600154604080517f59ff5b55000000000000000000000000000000000000000000000000000000008152905161016a9273ffffffffffffffffffffffffffffffffffffffff16916359ff5b559160048083019260209291908290030181865afa158015610201573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061022591906104a8565b60035b8082146103b9577f41304facd9323d75b11bcdd609cb38effffdb05710f7caf0e9b16c6d9d709f506040516102b49060208082526022908201527f4572726f723a2061203d3d2062206e6f7420736174697366696564205b75696e60408201527f745d000000000000000000000000000000000000000000000000000000000000606082015260800190565b60405180910390a160408051818152600a818301527f202045787065637465640000000000000000000000000000000000000000000060608201526020810183905290517fb2de2fbe801a0df6c0cbddfd448ba3c41d48a040ca35c56c8196ef0fcae721a89181900360800190a160408051818152600a818301527f2020202041637475616c0000000000000000000000000000000000000000000060608201526020810184905290517fb2de2fbe801a0df6c0cbddfd448ba3c41d48a040ca35c56c8196ef0fcae721a89181900360800190a16103b9600080547fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ff16610100179055565b5050565b8061045a577f41304facd9323d75b11bcdd609cb38effffdb05710f7caf0e9b16c6d9d709f506040516104219060208082526017908201527f4572726f723a20417373657274696f6e204661696c6564000000000000000000604082015260600190565b60405180910390a161045a600080547fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ff16610100179055565b50565b610120806104c283390190565b6000828210156104a3577f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b500390565b6000602082840312156104ba57600080fd5b505191905056fe608060405234801561001057600080fd5b5060405161012038038061012083398101604081905261002f91610037565b600055610050565b60006020828403121561004957600080fd5b5051919050565b60c28061005e6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80632ba2ed9814604157806341837a2f14605357806359ff5b5514606d575b600080fd5b6051604c3660046074565b600055565b005b605b60005481565b60405190815260200160405180910390f35b600054605b565b600060208284031215608557600080fd5b503591905056fea264697066735822122004aad853aa1df6c9df756d8027f201043f54e68be4b4982f23d2d8f0c9ca673464736f6c634300080a0033a26469706673582212207062bf98adbedda29d4c4d93f03b63919664481a7924490c1796a6fef64b5ee664736f6c634300080a0033",
+    "sourceMap": "148:554:4:-:0;;;1573:26:6;;;-1:-1:-1;;1573:26:6;1595:4;1573:26;;;148:554:4;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b506004361061007d5760003560e01c80633f5a4a2a1161005b5780633f5a4a2a1461009c578063ba414fa6146100a4578063e295c00a146100ca578063fa7626d4146100d257600080fd5b80630a9254e4146100825780631a6984b71461008c5780633ce7a75c14610094575b600080fd5b61008a6100df565b005b61008a61015d565b61008a61016c565b61008a610186565b6000546100b690610100900460ff1681565b604051901515815260200160405180910390f35b61008a610190565b6000546100b69060ff1681565b602a6002556040516003906100f39061045d565b908152602001604051809103906000f080158015610115573d6000803e3d6000fd5b50600180547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b61016a600254602a610228565b565b602b6002600082825461017f919061046a565b9091555050565b61016a60016103bd565b600154604080517f59ff5b55000000000000000000000000000000000000000000000000000000008152905161016a9273ffffffffffffffffffffffffffffffffffffffff16916359ff5b559160048083019260209291908290030181865afa158015610201573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061022591906104a8565b60035b8082146103b9577f41304facd9323d75b11bcdd609cb38effffdb05710f7caf0e9b16c6d9d709f506040516102b49060208082526022908201527f4572726f723a2061203d3d2062206e6f7420736174697366696564205b75696e60408201527f745d000000000000000000000000000000000000000000000000000000000000606082015260800190565b60405180910390a160408051818152600a818301527f202045787065637465640000000000000000000000000000000000000000000060608201526020810183905290517fb2de2fbe801a0df6c0cbddfd448ba3c41d48a040ca35c56c8196ef0fcae721a89181900360800190a160408051818152600a818301527f2020202041637475616c0000000000000000000000000000000000000000000060608201526020810184905290517fb2de2fbe801a0df6c0cbddfd448ba3c41d48a040ca35c56c8196ef0fcae721a89181900360800190a16103b9600080547fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ff16610100179055565b5050565b8061045a577f41304facd9323d75b11bcdd609cb38effffdb05710f7caf0e9b16c6d9d709f506040516104219060208082526017908201527f4572726f723a20417373657274696f6e204661696c6564000000000000000000604082015260600190565b60405180910390a161045a600080547fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ff16610100179055565b50565b610120806104c283390190565b6000828210156104a3577f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b500390565b6000602082840312156104ba57600080fd5b505191905056fe608060405234801561001057600080fd5b5060405161012038038061012083398101604081905261002f91610037565b600055610050565b60006020828403121561004957600080fd5b5051919050565b60c28061005e6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80632ba2ed9814604157806341837a2f14605357806359ff5b5514606d575b600080fd5b6051604c3660046074565b600055565b005b605b60005481565b60405190815260200160405180910390f35b600054605b565b600060208284031215608557600080fd5b503591905056fea264697066735822122004aad853aa1df6c9df756d8027f201043f54e68be4b4982f23d2d8f0c9ca673464736f6c634300080a0033a26469706673582212207062bf98adbedda29d4c4d93f03b63919664481a7924490c1796a6fef64b5ee664736f6c634300080a0033",
+    "sourceMap": "148:554:4:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;280:93;;;:::i;:::-;;448:76;;;:::i;530:71::-;;;:::i;379:63::-;;;:::i;1605:18:6:-;;;;;;;;;;;;;;;179:14:7;;172:22;154:41;;142:2;127:18;1605::6;;;;;;;607:93:4;;;:::i;1573:26:6:-;;;;;;;;;280:93:4;328:2;314:11;:16;348:18;;364:1;;348:18;;;:::i;:::-;360:25:7;;;348:2;333:18;348::4;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;340:5:4;:26;;;;;;;;;;;;;;;280:93::o;448:76::-;492:25;501:11;;514:2;492:8;:25::i;:::-;448:76::o;530:71::-;592:2;577:11;;:17;;;;;;;:::i;:::-;;;;-1:-1:-1;;530:71:4:o;379:63::-;419:16;430:4;419:10;:16::i;607:93::-;667:5;;:22;;;;;;;;658:35;;667:5;;;:20;;:22;;;;;;;;;;;;;;:5;:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;691:1;3993:262:6;4055:1;4050;:6;4046:203;;4077:41;;;;;1071:2:7;1053:21;;;1110:2;1090:18;;;1083:30;1149:34;1144:2;1129:18;;1122:62;1220:4;1215:2;1200:18;;1193:32;1257:3;1242:19;;869:398;4077:41:6;;;;;;;;4137:31;;;1484:21:7;;;1541:2;1521:18;;;1514:30;1580:12;1575:2;1560:18;;1553:40;1660:4;1645:20;;1638:36;;;4137:31:6;;;;;;;1625:3:7;4137:31:6;;;4187;;;1897:21:7;;;1954:2;1934:18;;;1927:30;1993:12;1988:2;1973:18;;1966:40;2073:4;2058:20;;2051:36;;;4187:31:6;;;;;;;2038:3:7;4187:31:6;;;4232:6;1853;:13;;;;;;;;1818:55;4232:6;3993:262;;:::o;2046:157::-;2106:9;2101:96;;2136:30;;;;;2300:2:7;2282:21;;;2339:2;2319:18;;;2312:30;2378:25;2373:2;2358:18;;2351:53;2436:2;2421:18;;2098:347;2136:30:6;;;;;;;;2180:6;1853;:13;;;;;;;;1818:55;2180:6;2046:157;:::o;-1:-1:-1:-;;;;;;;;:::o;396:279:7:-;436:4;464:1;461;458:8;455:188;;;499:77;496:1;489:88;600:4;597:1;590:15;628:4;625:1;618:15;455:188;-1:-1:-1;660:9:7;;396:279::o;680:184::-;750:6;803:2;791:9;782:7;778:23;774:32;771:52;;;819:1;816;809:12;771:52;-1:-1:-1;842:16:7;;680:184;-1:-1:-1;680:184:7:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "IS_TEST()": "fa7626d4",
+    "failed()": "ba414fa6",
+    "magicNumberIs42()": "1a6984b7",
+    "setUp()": "0a9254e4",
+    "testExample()": "3f5a4a2a",
+    "testFailSubtract43()": "3ce7a75c",
+    "testMagicNumberIsThree()": "e295c00a"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"^0.8.17+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"name\":\"log\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"log_address\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"name\":\"log_bytes\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"name\":\"log_bytes32\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"name\":\"log_int\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"val\",\"type\":\"address\"}],\"name\":\"log_named_address\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"val\",\"type\":\"bytes\"}],\"name\":\"log_named_bytes\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"bytes32\",\"name\":\"val\",\"type\":\"bytes32\"}],\"name\":\"log_named_bytes32\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"int256\",\"name\":\"val\",\"type\":\"int256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"decimals\",\"type\":\"uint256\"}],\"name\":\"log_named_decimal_int\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"val\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"decimals\",\"type\":\"uint256\"}],\"name\":\"log_named_decimal_uint\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"int256\",\"name\":\"val\",\"type\":\"int256\"}],\"name\":\"log_named_int\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"val\",\"type\":\"string\"}],\"name\":\"log_named_string\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"val\",\"type\":\"uint256\"}],\"name\":\"log_named_uint\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"name\":\"log_string\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"log_uint\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"name\":\"logs\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"IS_TEST\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"failed\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"magicNumberIs42\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"setUp\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"testExample\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"testFailSubtract43\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"testMagicNumberIsThree\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/test/MagicNumber.t.sol\":\"MagicNumberTest\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\"]},\"sources\":{\"contracts/MagicNumber.sol\":{\"keccak256\":\"0xd98f0799e06ae9cc6e767c92e084b88cd1f3b243bfc6ee43cf260428eaa7f885\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://ed1c0bac779117a31f9def3fef4c303f4f141f5bee9e89ac169524856d1122bd\",\"dweb:/ipfs/QmQG2eyU1HsXJu4HyDmqW3TUNCXMwYdnw2X7TVo4Yya8dk\"]},\"contracts/test/CheatCodes.sol\":{\"keccak256\":\"0x07909d2883b16eaa9e7a71af08a0d5beaf387b76488cad83981175d63f7108f1\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://6a472900859605f5323c697c0a3cb9babb8e46b358711aafe214156f236d84ed\",\"dweb:/ipfs/QmYMqBpon6chguPQt2j9a1haY5mFqyNSCdUhCUDeoC7jRW\"]},\"contracts/test/MagicNumber.t.sol\":{\"keccak256\":\"0x678d04aeeda4c076d13e251fd8cf519b8f76d33ebde1df818eb3d9e153ad5fd9\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://2af72795b47c909ca3ecf4714685e980feecdac4832afbfcf119d0afc8141112\",\"dweb:/ipfs/QmcBaFQv9ixeEqd2Vgy6W4DJXPZ8Z4qq6f7RsLLS5eEFkD\"]},\"lib/ds-test/src/test.sol\":{\"keccak256\":\"0x529f30c5939d75689f6a982f7f96b8898bed30bd90ec5b385b57cab681e12b00\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://89075d5a96e87acef1d00cf556b409d1836728ec2e92f5629ceb5cae3d1e4354\",\"dweb:/ipfs/QmPAViJrxffEDns9GEMVSAzmr3soAzfrEg1CVuovwmNfnt\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "^0.8.17+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_address",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "bytes",
+              "name": "",
+              "type": "bytes",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_bytes",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "bytes32",
+              "name": "",
+              "type": "bytes32",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_bytes32",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "int256",
+              "name": "",
+              "type": "int256",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_int",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "key",
+              "type": "string",
+              "indexed": false
+            },
+            {
+              "internalType": "address",
+              "name": "val",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_named_address",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "key",
+              "type": "string",
+              "indexed": false
+            },
+            {
+              "internalType": "bytes",
+              "name": "val",
+              "type": "bytes",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_named_bytes",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "key",
+              "type": "string",
+              "indexed": false
+            },
+            {
+              "internalType": "bytes32",
+              "name": "val",
+              "type": "bytes32",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_named_bytes32",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "key",
+              "type": "string",
+              "indexed": false
+            },
+            {
+              "internalType": "int256",
+              "name": "val",
+              "type": "int256",
+              "indexed": false
+            },
+            {
+              "internalType": "uint256",
+              "name": "decimals",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_named_decimal_int",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "key",
+              "type": "string",
+              "indexed": false
+            },
+            {
+              "internalType": "uint256",
+              "name": "val",
+              "type": "uint256",
+              "indexed": false
+            },
+            {
+              "internalType": "uint256",
+              "name": "decimals",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_named_decimal_uint",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "key",
+              "type": "string",
+              "indexed": false
+            },
+            {
+              "internalType": "int256",
+              "name": "val",
+              "type": "int256",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_named_int",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "key",
+              "type": "string",
+              "indexed": false
+            },
+            {
+              "internalType": "string",
+              "name": "val",
+              "type": "string",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_named_string",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "key",
+              "type": "string",
+              "indexed": false
+            },
+            {
+              "internalType": "uint256",
+              "name": "val",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_named_uint",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_string",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "log_uint",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "bytes",
+              "name": "",
+              "type": "bytes",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "logs",
+          "anonymous": false
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "IS_TEST",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "failed",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "magicNumberIs42"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "setUp"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "testExample"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "testFailSubtract43"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "testMagicNumberIsThree"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/test/MagicNumber.t.sol": "MagicNumberTest"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/MagicNumber.sol": {
+        "keccak256": "0xd98f0799e06ae9cc6e767c92e084b88cd1f3b243bfc6ee43cf260428eaa7f885",
+        "urls": [
+          "bzz-raw://ed1c0bac779117a31f9def3fef4c303f4f141f5bee9e89ac169524856d1122bd",
+          "dweb:/ipfs/QmQG2eyU1HsXJu4HyDmqW3TUNCXMwYdnw2X7TVo4Yya8dk"
+        ],
+        "license": "GPL-3.0"
+      },
+      "contracts/test/CheatCodes.sol": {
+        "keccak256": "0x07909d2883b16eaa9e7a71af08a0d5beaf387b76488cad83981175d63f7108f1",
+        "urls": [
+          "bzz-raw://6a472900859605f5323c697c0a3cb9babb8e46b358711aafe214156f236d84ed",
+          "dweb:/ipfs/QmYMqBpon6chguPQt2j9a1haY5mFqyNSCdUhCUDeoC7jRW"
+        ],
+        "license": "UNLICENSED"
+      },
+      "contracts/test/MagicNumber.t.sol": {
+        "keccak256": "0x678d04aeeda4c076d13e251fd8cf519b8f76d33ebde1df818eb3d9e153ad5fd9",
+        "urls": [
+          "bzz-raw://2af72795b47c909ca3ecf4714685e980feecdac4832afbfcf119d0afc8141112",
+          "dweb:/ipfs/QmcBaFQv9ixeEqd2Vgy6W4DJXPZ8Z4qq6f7RsLLS5eEFkD"
+        ],
+        "license": "UNLICENSED"
+      },
+      "lib/ds-test/src/test.sol": {
+        "keccak256": "0x529f30c5939d75689f6a982f7f96b8898bed30bd90ec5b385b57cab681e12b00",
+        "urls": [
+          "bzz-raw://89075d5a96e87acef1d00cf556b409d1836728ec2e92f5629ceb5cae3d1e4354",
+          "dweb:/ipfs/QmPAViJrxffEDns9GEMVSAzmr3soAzfrEg1CVuovwmNfnt"
+        ],
+        "license": "GPL-3.0-or-later"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/test/MagicNumber.t.sol",
+    "id": 416,
+    "exportedSymbols": {
+      "CheatCodes": [216],
+      "DSTest": [2200],
+      "MagicNumber": [35],
+      "MagicNumberTest": [415]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:664:4",
+    "nodes": [
+      {
+        "id": 349,
+        "nodeType": "PragmaDirective",
+        "src": "39:23:4",
+        "nodes": [],
+        "literals": ["solidity", "0.8", ".10"]
+      },
+      {
+        "id": 350,
+        "nodeType": "ImportDirective",
+        "src": "64:26:4",
+        "nodes": [],
+        "absolutePath": "lib/ds-test/src/test.sol",
+        "file": "ds-test/test.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 416,
+        "sourceUnit": 2201,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 351,
+        "nodeType": "ImportDirective",
+        "src": "91:26:4",
+        "nodes": [],
+        "absolutePath": "contracts/test/CheatCodes.sol",
+        "file": "./CheatCodes.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 416,
+        "sourceUnit": 217,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 352,
+        "nodeType": "ImportDirective",
+        "src": "118:28:4",
+        "nodes": [],
+        "absolutePath": "contracts/MagicNumber.sol",
+        "file": "../MagicNumber.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 416,
+        "sourceUnit": 36,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 415,
+        "nodeType": "ContractDefinition",
+        "src": "148:554:4",
+        "nodes": [
+          {
+            "id": 357,
+            "nodeType": "VariableDeclaration",
+            "src": "189:26:4",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "cheats",
+            "nameLocation": "209:6:4",
+            "scope": 415,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_CheatCodes_$216",
+              "typeString": "contract CheatCodes"
+            },
+            "typeName": {
+              "id": 356,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 355,
+                "name": "CheatCodes",
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 216,
+                "src": "189:10:4"
+              },
+              "referencedDeclaration": 216,
+              "src": "189:10:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_CheatCodes_$216",
+                "typeString": "contract CheatCodes"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 360,
+            "nodeType": "VariableDeclaration",
+            "src": "221:26:4",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "magic",
+            "nameLocation": "242:5:4",
+            "scope": 415,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_MagicNumber_$35",
+              "typeString": "contract MagicNumber"
+            },
+            "typeName": {
+              "id": 359,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 358,
+                "name": "MagicNumber",
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 35,
+                "src": "221:11:4"
+              },
+              "referencedDeclaration": 35,
+              "src": "221:11:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_MagicNumber_$35",
+                "typeString": "contract MagicNumber"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 362,
+            "nodeType": "VariableDeclaration",
+            "src": "254:19:4",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "magicNumber",
+            "nameLocation": "262:11:4",
+            "scope": 415,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 361,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "254:7:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 378,
+            "nodeType": "FunctionDefinition",
+            "src": "280:93:4",
+            "nodes": [],
+            "body": {
+              "id": 377,
+              "nodeType": "Block",
+              "src": "304:69:4",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 367,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 365,
+                      "name": "magicNumber",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 362,
+                      "src": "314:11:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "hexValue": "3432",
+                      "id": 366,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "328:2:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_42_by_1",
+                        "typeString": "int_const 42"
+                      },
+                      "value": "42"
+                    },
+                    "src": "314:16:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 368,
+                  "nodeType": "ExpressionStatement",
+                  "src": "314:16:4"
+                },
+                {
+                  "expression": {
+                    "id": 375,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 369,
+                      "name": "magic",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 360,
+                      "src": "340:5:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_MagicNumber_$35",
+                        "typeString": "contract MagicNumber"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "hexValue": "33",
+                          "id": 373,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "364:1:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_3_by_1",
+                            "typeString": "int_const 3"
+                          },
+                          "value": "3"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_rational_3_by_1",
+                            "typeString": "int_const 3"
+                          }
+                        ],
+                        "id": 372,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "348:15:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_creation_nonpayable$_t_uint256_$returns$_t_contract$_MagicNumber_$35_$",
+                          "typeString": "function (uint256) returns (contract MagicNumber)"
+                        },
+                        "typeName": {
+                          "id": 371,
+                          "nodeType": "UserDefinedTypeName",
+                          "pathNode": {
+                            "id": 370,
+                            "name": "MagicNumber",
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 35,
+                            "src": "352:11:4"
+                          },
+                          "referencedDeclaration": 35,
+                          "src": "352:11:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_MagicNumber_$35",
+                            "typeString": "contract MagicNumber"
+                          }
+                        }
+                      },
+                      "id": 374,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "348:18:4",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_MagicNumber_$35",
+                        "typeString": "contract MagicNumber"
+                      }
+                    },
+                    "src": "340:26:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_MagicNumber_$35",
+                      "typeString": "contract MagicNumber"
+                    }
+                  },
+                  "id": 376,
+                  "nodeType": "ExpressionStatement",
+                  "src": "340:26:4"
+                }
+              ]
+            },
+            "functionSelector": "0a9254e4",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setUp",
+            "nameLocation": "289:5:4",
+            "parameters": {
+              "id": 363,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "294:2:4"
+            },
+            "returnParameters": {
+              "id": 364,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "304:0:4"
+            },
+            "scope": 415,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 386,
+            "nodeType": "FunctionDefinition",
+            "src": "379:63:4",
+            "nodes": [],
+            "body": {
+              "id": 385,
+              "nodeType": "Block",
+              "src": "409:33:4",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "74727565",
+                        "id": 382,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "bool",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "430:4:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        "value": "true"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "id": 381,
+                      "name": "assertTrue",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [683, 704],
+                      "referencedDeclaration": 683,
+                      "src": "419:10:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_bool_$returns$__$",
+                        "typeString": "function (bool)"
+                      }
+                    },
+                    "id": 383,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "419:16:4",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 384,
+                  "nodeType": "ExpressionStatement",
+                  "src": "419:16:4"
+                }
+              ]
+            },
+            "functionSelector": "3f5a4a2a",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "testExample",
+            "nameLocation": "388:11:4",
+            "parameters": {
+              "id": 379,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "399:2:4"
+            },
+            "returnParameters": {
+              "id": 380,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "409:0:4"
+            },
+            "scope": 415,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 395,
+            "nodeType": "FunctionDefinition",
+            "src": "448:76:4",
+            "nodes": [],
+            "body": {
+              "id": 394,
+              "nodeType": "Block",
+              "src": "482:42:4",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 390,
+                        "name": "magicNumber",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 362,
+                        "src": "501:11:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "hexValue": "3432",
+                        "id": 391,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "514:2:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_42_by_1",
+                          "typeString": "int_const 42"
+                        },
+                        "value": "42"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        {
+                          "typeIdentifier": "t_rational_42_by_1",
+                          "typeString": "int_const 42"
+                        }
+                      ],
+                      "id": 389,
+                      "name": "assertEq",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        734, 759, 789, 814, 873, 898, 928, 953, 2053, 2088
+                      ],
+                      "referencedDeclaration": 928,
+                      "src": "492:8:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$returns$__$",
+                        "typeString": "function (uint256,uint256)"
+                      }
+                    },
+                    "id": 392,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "492:25:4",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 393,
+                  "nodeType": "ExpressionStatement",
+                  "src": "492:25:4"
+                }
+              ]
+            },
+            "functionSelector": "1a6984b7",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "magicNumberIs42",
+            "nameLocation": "457:15:4",
+            "parameters": {
+              "id": 387,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "472:2:4"
+            },
+            "returnParameters": {
+              "id": 388,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "482:0:4"
+            },
+            "scope": 415,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 403,
+            "nodeType": "FunctionDefinition",
+            "src": "530:71:4",
+            "nodes": [],
+            "body": {
+              "id": 402,
+              "nodeType": "Block",
+              "src": "567:34:4",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 400,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 398,
+                      "name": "magicNumber",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 362,
+                      "src": "577:11:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "-=",
+                    "rightHandSide": {
+                      "hexValue": "3433",
+                      "id": 399,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "592:2:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_43_by_1",
+                        "typeString": "int_const 43"
+                      },
+                      "value": "43"
+                    },
+                    "src": "577:17:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 401,
+                  "nodeType": "ExpressionStatement",
+                  "src": "577:17:4"
+                }
+              ]
+            },
+            "functionSelector": "3ce7a75c",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "testFailSubtract43",
+            "nameLocation": "539:18:4",
+            "parameters": {
+              "id": 396,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "557:2:4"
+            },
+            "returnParameters": {
+              "id": 397,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "567:0:4"
+            },
+            "scope": 415,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 414,
+            "nodeType": "FunctionDefinition",
+            "src": "607:93:4",
+            "nodes": [],
+            "body": {
+              "id": 413,
+              "nodeType": "Block",
+              "src": "648:52:4",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [],
+                        "expression": {
+                          "argumentTypes": [],
+                          "expression": {
+                            "id": 407,
+                            "name": "magic",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 360,
+                            "src": "667:5:4",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_MagicNumber_$35",
+                              "typeString": "contract MagicNumber"
+                            }
+                          },
+                          "id": 408,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "getMagicNumber",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 34,
+                          "src": "667:20:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
+                            "typeString": "function () view external returns (uint256)"
+                          }
+                        },
+                        "id": 409,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "667:22:4",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "hexValue": "33",
+                        "id": 410,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "691:1:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_3_by_1",
+                          "typeString": "int_const 3"
+                        },
+                        "value": "3"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        {
+                          "typeIdentifier": "t_rational_3_by_1",
+                          "typeString": "int_const 3"
+                        }
+                      ],
+                      "id": 406,
+                      "name": "assertEq",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        734, 759, 789, 814, 873, 898, 928, 953, 2053, 2088
+                      ],
+                      "referencedDeclaration": 928,
+                      "src": "658:8:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$returns$__$",
+                        "typeString": "function (uint256,uint256)"
+                      }
+                    },
+                    "id": 411,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "658:35:4",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 412,
+                  "nodeType": "ExpressionStatement",
+                  "src": "658:35:4"
+                }
+              ]
+            },
+            "functionSelector": "e295c00a",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "testMagicNumberIsThree",
+            "nameLocation": "616:22:4",
+            "parameters": {
+              "id": 404,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "638:2:4"
+            },
+            "returnParameters": {
+              "id": 405,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "648:0:4"
+            },
+            "scope": 415,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 353,
+              "name": "DSTest",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 2200,
+              "src": "176:6:4"
+            },
+            "id": 354,
+            "nodeType": "InheritanceSpecifier",
+            "src": "176:6:4"
+          }
+        ],
+        "canonicalName": "MagicNumberTest",
+        "contractDependencies": [35],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [415, 2200],
+        "name": "MagicNumberTest",
+        "nameLocation": "157:15:4",
+        "scope": 416,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 4
+}

@@ -1,8 +1,6 @@
-[default]
-auto_detect_solc = true
+[profile.default]
+src = 'src'
+out = 'out'
 libs = ['lib']
-optimizer = true
-optimizer_runs = 500000
-out = 'dist/artifacts'
-src = 'contracts'
-test = 'test'
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config

@@ -1,0 +1,1089 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "arr",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "f",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "_arr",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "g",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "_arr",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "h",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b506102fd806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c806326121ff01461005157806340dcbb081461007057806371e5ee5f14610082578063baf71609146100a8575b600080fd5b61006e600160009081526002602090815260408051918201905252565b005b61006e61007e3660046100ea565b5050565b61009561009036600461015f565b6100c9565b6040519081526020015b60405180910390f35b6100bc6100b63660046101a7565b50606090565b60405161009f9190610283565b600081815481106100d957600080fd5b600091825260209091200154905081565b600080602083850312156100fd57600080fd5b823567ffffffffffffffff8082111561011557600080fd5b818501915085601f83011261012957600080fd5b81358181111561013857600080fd5b8660208260051b850101111561014d57600080fd5b60209290920196919550909350505050565b60006020828403121561017157600080fd5b5035919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b600060208083850312156101ba57600080fd5b823567ffffffffffffffff808211156101d257600080fd5b818501915085601f8301126101e657600080fd5b8135818111156101f8576101f8610178565b8060051b6040517fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0603f8301168101818110858211171561023b5761023b610178565b60405291825284820192508381018501918883111561025957600080fd5b938501935b828510156102775784358452938501939285019261025e565b98975050505050505050565b6020808252825182820181905260009190848201906040850190845b818110156102bb5783518352928401929184019160010161029f565b5090969550505050505056fea26469706673582212209e05e63c284d8c333716034b9f12e7bd36bfba0ca1f1526274fc2721cc233d3f64736f6c63430008110033",
+    "sourceMap": "58:938:4:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c806326121ff01461005157806340dcbb081461007057806371e5ee5f14610082578063baf71609146100a8575b600080fd5b61006e600160009081526002602090815260408051918201905252565b005b61006e61007e3660046100ea565b5050565b61009561009036600461015f565b6100c9565b6040519081526020015b60405180910390f35b6100bc6100b63660046101a7565b50606090565b60405161009f9190610283565b600081815481106100d957600080fd5b600091825260209091200154905081565b600080602083850312156100fd57600080fd5b823567ffffffffffffffff8082111561011557600080fd5b818501915085601f83011261012957600080fd5b81358181111561013857600080fd5b8660208260051b850101111561014d57600080fd5b60209290920196919550909350505050565b60006020828403121561017157600080fd5b5035919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b600060208083850312156101ba57600080fd5b823567ffffffffffffffff808211156101d257600080fd5b818501915085601f8301126101e657600080fd5b8135818111156101f8576101f8610178565b8060051b6040517fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0603f8301168101818110858211171561023b5761023b610178565b60405291825284820192508381018501918883111561025957600080fd5b938501935b828510156102775784358452938501939285019261025e565b98975050505050505050565b6020808252825182820181905260009190848201906040850190845b818110156102bb5783518352928401929184019160010161029f565b5090969550505050505056fea26469706673582212209e05e63c284d8c333716034b9f12e7bd36bfba0ca1f1526274fc2721cc233d3f64736f6c63430008110033",
+    "sourceMap": "58:938:4:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;244:281;;322:3;317;327:12;;;:9;:12;;;;418;507:11;;;;;;;;244:281;;;898:96;;;;;;:::i;:::-;;;;87:20;;;;;;:::i;:::-;;:::i;:::-;;;965:25:19;;;953:2;938:18;87:20:4;;;;;;;;775:117;;;;;;:::i;:::-;-1:-1:-1;825:16:4;;775:117;;;;;;;;:::i;87:20::-;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;87:20:4;:::o;14:615:19:-;100:6;108;161:2;149:9;140:7;136:23;132:32;129:52;;;177:1;174;167:12;129:52;217:9;204:23;246:18;287:2;279:6;276:14;273:34;;;303:1;300;293:12;273:34;341:6;330:9;326:22;316:32;;386:7;379:4;375:2;371:13;367:27;357:55;;408:1;405;398:12;357:55;448:2;435:16;474:2;466:6;463:14;460:34;;;490:1;487;480:12;460:34;543:7;538:2;528:6;525:1;521:14;517:2;513:23;509:32;506:45;503:65;;;564:1;561;554:12;503:65;595:2;587:11;;;;;617:6;;-1:-1:-1;14:615:19;;-1:-1:-1;;;;14:615:19:o;634:180::-;693:6;746:2;734:9;725:7;721:23;717:32;714:52;;;762:1;759;752:12;714:52;-1:-1:-1;785:23:19;;634:180;-1:-1:-1;634:180:19:o;1001:184::-;1053:77;1050:1;1043:88;1150:4;1147:1;1140:15;1174:4;1171:1;1164:15;1190:1174;1274:6;1305:2;1348;1336:9;1327:7;1323:23;1319:32;1316:52;;;1364:1;1361;1354:12;1316:52;1404:9;1391:23;1433:18;1474:2;1466:6;1463:14;1460:34;;;1490:1;1487;1480:12;1460:34;1528:6;1517:9;1513:22;1503:32;;1573:7;1566:4;1562:2;1558:13;1554:27;1544:55;;1595:1;1592;1585:12;1544:55;1631:2;1618:16;1653:2;1649;1646:10;1643:36;;;1659:18;;:::i;:::-;1705:2;1702:1;1698:10;1737:2;1731:9;1796:66;1791:2;1787;1783:11;1779:84;1771:6;1767:97;1914:6;1902:10;1899:22;1894:2;1882:10;1879:18;1876:46;1873:72;;;1925:18;;:::i;:::-;1961:2;1954:22;2011:18;;;2045:15;;;;-1:-1:-1;2087:11:19;;;2083:20;;;2115:19;;;2112:39;;;2147:1;2144;2137:12;2112:39;2171:11;;;;2191:142;2207:6;2202:3;2199:15;2191:142;;;2273:17;;2261:30;;2224:12;;;;2311;;;;2191:142;;;2352:6;1190:1174;-1:-1:-1;;;;;;;;1190:1174:19:o;2369:632::-;2540:2;2592:21;;;2662:13;;2565:18;;;2684:22;;;2511:4;;2540:2;2763:15;;;;2737:2;2722:18;;;2511:4;2806:169;2820:6;2817:1;2814:13;2806:169;;;2881:13;;2869:26;;2950:15;;;;2915:12;;;;2842:1;2835:9;2806:169;;;-1:-1:-1;2992:3:19;;2369:632;-1:-1:-1;;;;;;2369:632:19:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "arr(uint256)": "71e5ee5f",
+    "f()": "26121ff0",
+    "g(uint256[])": "baf71609",
+    "h(uint256[])": "40dcbb08"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"arr\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"f\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"_arr\",\"type\":\"uint256[]\"}],\"name\":\"g\",\"outputs\":[{\"internalType\":\"uint256[]\",\"name\":\"\",\"type\":\"uint256[]\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"_arr\",\"type\":\"uint256[]\"}],\"name\":\"h\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/DataLocations.sol\":\"DataLocations\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\"]},\"sources\":{\"contracts/DataLocations.sol\":{\"keccak256\":\"0xa7a2f823012ac03e37d75a216e09d93a56f88ba68d7239379e8f532b59e7cb74\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f063e61c4a87ae70c8ab1fde73850da51178c7caa5dfd0b30fae7744fe3f5222\",\"dweb:/ipfs/QmQmmFw61TgCHjJzu5ai6mKYe7t4dYGxEA3157T6PigEGh\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "arr",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "f"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256[]",
+              "name": "_arr",
+              "type": "uint256[]"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "g",
+          "outputs": [
+            {
+              "internalType": "uint256[]",
+              "name": "",
+              "type": "uint256[]"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256[]",
+              "name": "_arr",
+              "type": "uint256[]"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "h"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/DataLocations.sol": "DataLocations"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/DataLocations.sol": {
+        "keccak256": "0xa7a2f823012ac03e37d75a216e09d93a56f88ba68d7239379e8f532b59e7cb74",
+        "urls": [
+          "bzz-raw://f063e61c4a87ae70c8ab1fde73850da51178c7caa5dfd0b30fae7744fe3f5222",
+          "dweb:/ipfs/QmQmmFw61TgCHjJzu5ai6mKYe7t4dYGxEA3157T6PigEGh"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/DataLocations.sol",
+    "id": 446,
+    "exportedSymbols": {
+      "DataLocations": [
+        445
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:965:4",
+    "nodes": [
+      {
+        "id": 372,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:4",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 445,
+        "nodeType": "ContractDefinition",
+        "src": "58:938:4",
+        "nodes": [
+          {
+            "id": 375,
+            "nodeType": "VariableDeclaration",
+            "src": "87:20:4",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "71e5ee5f",
+            "mutability": "mutable",
+            "name": "arr",
+            "nameLocation": "104:3:4",
+            "scope": 445,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+              "typeString": "uint256[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 373,
+                "name": "uint256",
+                "nodeType": "ElementaryTypeName",
+                "src": "87:7:4",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "id": 374,
+              "nodeType": "ArrayTypeName",
+              "src": "87:9:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                "typeString": "uint256[]"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 379,
+            "nodeType": "VariableDeclaration",
+            "src": "113:31:4",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "map",
+            "nameLocation": "141:3:4",
+            "scope": 445,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
+              "typeString": "mapping(uint256 => address)"
+            },
+            "typeName": {
+              "id": 378,
+              "keyType": {
+                "id": 376,
+                "name": "uint256",
+                "nodeType": "ElementaryTypeName",
+                "src": "121:7:4",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "113:27:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
+                "typeString": "mapping(uint256 => address)"
+              },
+              "valueType": {
+                "id": 377,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "132:7:4",
+                "stateMutability": "nonpayable",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 382,
+            "nodeType": "StructDefinition",
+            "src": "150:44:4",
+            "nodes": [],
+            "canonicalName": "DataLocations.MyStruct",
+            "members": [
+              {
+                "constant": false,
+                "id": 381,
+                "mutability": "mutable",
+                "name": "foo",
+                "nameLocation": "184:3:4",
+                "nodeType": "VariableDeclaration",
+                "scope": 382,
+                "src": "176:11:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 380,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "176:7:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "MyStruct",
+            "nameLocation": "157:8:4",
+            "scope": 445,
+            "visibility": "public"
+          },
+          {
+            "id": 387,
+            "nodeType": "VariableDeclaration",
+            "src": "199:38:4",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "myStructs",
+            "nameLocation": "228:9:4",
+            "scope": 445,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_MyStruct_$382_storage_$",
+              "typeString": "mapping(uint256 => struct DataLocations.MyStruct)"
+            },
+            "typeName": {
+              "id": 386,
+              "keyType": {
+                "id": 383,
+                "name": "uint256",
+                "nodeType": "ElementaryTypeName",
+                "src": "207:7:4",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "199:28:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_MyStruct_$382_storage_$",
+                "typeString": "mapping(uint256 => struct DataLocations.MyStruct)"
+              },
+              "valueType": {
+                "id": 385,
+                "nodeType": "UserDefinedTypeName",
+                "pathNode": {
+                  "id": 384,
+                  "name": "MyStruct",
+                  "nameLocations": [
+                    "218:8:4"
+                  ],
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 382,
+                  "src": "218:8:4"
+                },
+                "referencedDeclaration": 382,
+                "src": "218:8:4",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_MyStruct_$382_storage_ptr",
+                  "typeString": "struct DataLocations.MyStruct"
+                }
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 413,
+            "nodeType": "FunctionDefinition",
+            "src": "244:281:4",
+            "nodes": [],
+            "body": {
+              "id": 412,
+              "nodeType": "Block",
+              "src": "264:261:4",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 391,
+                        "name": "arr",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 375,
+                        "src": "317:3:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+                          "typeString": "uint256[] storage ref"
+                        }
+                      },
+                      {
+                        "id": 392,
+                        "name": "map",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 379,
+                        "src": "322:3:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
+                          "typeString": "mapping(uint256 => address)"
+                        }
+                      },
+                      {
+                        "baseExpression": {
+                          "id": 393,
+                          "name": "myStructs",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 387,
+                          "src": "327:9:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_MyStruct_$382_storage_$",
+                            "typeString": "mapping(uint256 => struct DataLocations.MyStruct storage ref)"
+                          }
+                        },
+                        "id": 395,
+                        "indexExpression": {
+                          "hexValue": "31",
+                          "id": 394,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "337:1:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "327:12:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_MyStruct_$382_storage",
+                          "typeString": "struct DataLocations.MyStruct storage ref"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+                          "typeString": "uint256[] storage ref"
+                        },
+                        {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
+                          "typeString": "mapping(uint256 => address)"
+                        },
+                        {
+                          "typeIdentifier": "t_struct$_MyStruct_$382_storage",
+                          "typeString": "struct DataLocations.MyStruct storage ref"
+                        }
+                      ],
+                      "id": 390,
+                      "name": "_f",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 427,
+                      "src": "314:2:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_array$_t_uint256_$dyn_storage_ptr_$_t_mapping$_t_uint256_$_t_address_$_$_t_struct$_MyStruct_$382_storage_ptr_$returns$__$",
+                        "typeString": "function (uint256[] storage pointer,mapping(uint256 => address),struct DataLocations.MyStruct storage pointer)"
+                      }
+                    },
+                    "id": 396,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "314:26:4",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 397,
+                  "nodeType": "ExpressionStatement",
+                  "src": "314:26:4"
+                },
+                {
+                  "assignments": [
+                    400
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 400,
+                      "mutability": "mutable",
+                      "name": "myStruct",
+                      "nameLocation": "407:8:4",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 412,
+                      "src": "390:25:4",
+                      "stateVariable": false,
+                      "storageLocation": "storage",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_MyStruct_$382_storage_ptr",
+                        "typeString": "struct DataLocations.MyStruct"
+                      },
+                      "typeName": {
+                        "id": 399,
+                        "nodeType": "UserDefinedTypeName",
+                        "pathNode": {
+                          "id": 398,
+                          "name": "MyStruct",
+                          "nameLocations": [
+                            "390:8:4"
+                          ],
+                          "nodeType": "IdentifierPath",
+                          "referencedDeclaration": 382,
+                          "src": "390:8:4"
+                        },
+                        "referencedDeclaration": 382,
+                        "src": "390:8:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_MyStruct_$382_storage_ptr",
+                          "typeString": "struct DataLocations.MyStruct"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 404,
+                  "initialValue": {
+                    "baseExpression": {
+                      "id": 401,
+                      "name": "myStructs",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 387,
+                      "src": "418:9:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_MyStruct_$382_storage_$",
+                        "typeString": "mapping(uint256 => struct DataLocations.MyStruct storage ref)"
+                      }
+                    },
+                    "id": 403,
+                    "indexExpression": {
+                      "hexValue": "31",
+                      "id": 402,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "428:1:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_1_by_1",
+                        "typeString": "int_const 1"
+                      },
+                      "value": "1"
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "418:12:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_MyStruct_$382_storage",
+                      "typeString": "struct DataLocations.MyStruct storage ref"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "390:40:4"
+                },
+                {
+                  "assignments": [
+                    407
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 407,
+                      "mutability": "mutable",
+                      "name": "myMemStruct",
+                      "nameLocation": "493:11:4",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 412,
+                      "src": "477:27:4",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_MyStruct_$382_memory_ptr",
+                        "typeString": "struct DataLocations.MyStruct"
+                      },
+                      "typeName": {
+                        "id": 406,
+                        "nodeType": "UserDefinedTypeName",
+                        "pathNode": {
+                          "id": 405,
+                          "name": "MyStruct",
+                          "nameLocations": [
+                            "477:8:4"
+                          ],
+                          "nodeType": "IdentifierPath",
+                          "referencedDeclaration": 382,
+                          "src": "477:8:4"
+                        },
+                        "referencedDeclaration": 382,
+                        "src": "477:8:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_MyStruct_$382_storage_ptr",
+                          "typeString": "struct DataLocations.MyStruct"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 411,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "hexValue": "30",
+                        "id": 409,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "516:1:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        },
+                        "value": "0"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        }
+                      ],
+                      "id": 408,
+                      "name": "MyStruct",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 382,
+                      "src": "507:8:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_struct$_MyStruct_$382_storage_ptr_$",
+                        "typeString": "type(struct DataLocations.MyStruct storage pointer)"
+                      }
+                    },
+                    "id": 410,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "structConstructorCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "507:11:4",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_MyStruct_$382_memory_ptr",
+                      "typeString": "struct DataLocations.MyStruct memory"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "477:41:4"
+                }
+              ]
+            },
+            "functionSelector": "26121ff0",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "f",
+            "nameLocation": "253:1:4",
+            "parameters": {
+              "id": 388,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "254:2:4"
+            },
+            "returnParameters": {
+              "id": 389,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "264:0:4"
+            },
+            "scope": 445,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 427,
+            "nodeType": "FunctionDefinition",
+            "src": "531:199:4",
+            "nodes": [],
+            "body": {
+              "id": 426,
+              "nodeType": "Block",
+              "src": "676:54:4",
+              "nodes": [],
+              "statements": []
+            },
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "_f",
+            "nameLocation": "540:2:4",
+            "parameters": {
+              "id": 424,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 416,
+                  "mutability": "mutable",
+                  "name": "_arr",
+                  "nameLocation": "570:4:4",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 427,
+                  "src": "552:22:4",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                    "typeString": "uint256[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 414,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "552:7:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 415,
+                    "nodeType": "ArrayTypeName",
+                    "src": "552:9:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                      "typeString": "uint256[]"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 420,
+                  "mutability": "mutable",
+                  "name": "_map",
+                  "nameLocation": "620:4:4",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 427,
+                  "src": "584:40:4",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
+                    "typeString": "mapping(uint256 => address)"
+                  },
+                  "typeName": {
+                    "id": 419,
+                    "keyType": {
+                      "id": 417,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "592:7:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Mapping",
+                    "src": "584:27:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
+                      "typeString": "mapping(uint256 => address)"
+                    },
+                    "valueType": {
+                      "id": 418,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "603:7:4",
+                      "stateMutability": "nonpayable",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 423,
+                  "mutability": "mutable",
+                  "name": "_myStruct",
+                  "nameLocation": "651:9:4",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 427,
+                  "src": "634:26:4",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_MyStruct_$382_storage_ptr",
+                    "typeString": "struct DataLocations.MyStruct"
+                  },
+                  "typeName": {
+                    "id": 422,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 421,
+                      "name": "MyStruct",
+                      "nameLocations": [
+                        "634:8:4"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 382,
+                      "src": "634:8:4"
+                    },
+                    "referencedDeclaration": 382,
+                    "src": "634:8:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_MyStruct_$382_storage_ptr",
+                      "typeString": "struct DataLocations.MyStruct"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "542:124:4"
+            },
+            "returnParameters": {
+              "id": 425,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "676:0:4"
+            },
+            "scope": 445,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "internal"
+          },
+          {
+            "id": 437,
+            "nodeType": "FunctionDefinition",
+            "src": "775:117:4",
+            "nodes": [],
+            "body": {
+              "id": 436,
+              "nodeType": "Block",
+              "src": "843:49:4",
+              "nodes": [],
+              "statements": []
+            },
+            "functionSelector": "baf71609",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "g",
+            "nameLocation": "784:1:4",
+            "parameters": {
+              "id": 431,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 430,
+                  "mutability": "mutable",
+                  "name": "_arr",
+                  "nameLocation": "803:4:4",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 437,
+                  "src": "786:21:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                    "typeString": "uint256[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 428,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "786:7:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 429,
+                    "nodeType": "ArrayTypeName",
+                    "src": "786:9:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                      "typeString": "uint256[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "785:23:4"
+            },
+            "returnParameters": {
+              "id": 435,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 434,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 437,
+                  "src": "825:16:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                    "typeString": "uint256[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 432,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "825:7:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 433,
+                    "nodeType": "ArrayTypeName",
+                    "src": "825:9:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                      "typeString": "uint256[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "824:18:4"
+            },
+            "scope": 445,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 444,
+            "nodeType": "FunctionDefinition",
+            "src": "898:96:4",
+            "nodes": [],
+            "body": {
+              "id": 443,
+              "nodeType": "Block",
+              "src": "943:51:4",
+              "nodes": [],
+              "statements": []
+            },
+            "functionSelector": "40dcbb08",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "h",
+            "nameLocation": "907:1:4",
+            "parameters": {
+              "id": 441,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 440,
+                  "mutability": "mutable",
+                  "name": "_arr",
+                  "nameLocation": "928:4:4",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 444,
+                  "src": "909:23:4",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_uint256_$dyn_calldata_ptr",
+                    "typeString": "uint256[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 438,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "909:7:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 439,
+                    "nodeType": "ArrayTypeName",
+                    "src": "909:9:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                      "typeString": "uint256[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "908:25:4"
+            },
+            "returnParameters": {
+              "id": 442,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "943:0:4"
+            },
+            "scope": 445,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "DataLocations",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          445
+        ],
+        "name": "DataLocations",
+        "nameLocation": "67:13:4",
+        "scope": 446,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 4
+}

@@ -1,0 +1,258 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "MY_ADDRESS",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "MY_UINT",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b5060c58061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80631f6649e31460375780633a756cec146051575b600080fd5b603e607b81565b6040519081526020015b60405180910390f35b606b73777788889999aaaabbbbccccddddeeeeffffcccc81565b60405173ffffffffffffffffffffffffffffffffffffffff9091168152602001604856fea2646970667358221220839b85a7dd336c1cd7f9191c4ddb9ff01de3cf5ea5886d6c84919f6e37afa00264736f6c63430008110033",
+    "sourceMap": "58:207:2:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c80631f6649e31460375780633a756cec146051575b600080fd5b603e607b81565b6040519081526020015b60405180910390f35b606b73777788889999aaaabbbbccccddddeeeeffffcccc81565b60405173ffffffffffffffffffffffffffffffffffffffff9091168152602001604856fea2646970667358221220839b85a7dd336c1cd7f9191c4ddb9ff01de3cf5ea5886d6c84919f6e37afa00264736f6c63430008110033",
+    "sourceMap": "58:207:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;225:37;;259:3;225:37;;;;;160:25:19;;;148:2;133:18;225:37:2;;;;;;;;140:79;;177:42;140:79;;;;;372:42:19;360:55;;;342:74;;330:2;315:18;140:79:2;196:226:19",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "MY_ADDRESS()": "3a756cec",
+    "MY_UINT()": "1f6649e3"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"MY_ADDRESS\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"MY_UINT\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Constants.sol\":\"Constants\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\"]},\"sources\":{\"contracts/Constants.sol\":{\"keccak256\":\"0xb995c8d20cd0054dd617bacf759b6f953007670bd182c93cae0129d888988e05\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4efd16bc26f614dad2d7450d4f3d70f3dbab759568324a594ebfb78f5452e214\",\"dweb:/ipfs/QmNSti4QPeBi961L782MKsN5FmM3DSH1zzfx7ZVDTM5yxW\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "MY_ADDRESS",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "MY_UINT",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/Constants.sol": "Constants"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/Constants.sol": {
+        "keccak256": "0xb995c8d20cd0054dd617bacf759b6f953007670bd182c93cae0129d888988e05",
+        "urls": [
+          "bzz-raw://4efd16bc26f614dad2d7450d4f3d70f3dbab759568324a594ebfb78f5452e214",
+          "dweb:/ipfs/QmNSti4QPeBi961L782MKsN5FmM3DSH1zzfx7ZVDTM5yxW"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/Constants.sol",
+    "id": 219,
+    "exportedSymbols": {
+      "Constants": [
+        218
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:234:2",
+    "nodes": [
+      {
+        "id": 211,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:2",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 218,
+        "nodeType": "ContractDefinition",
+        "src": "58:207:2",
+        "nodes": [
+          {
+            "id": 214,
+            "nodeType": "VariableDeclaration",
+            "src": "140:79:2",
+            "nodes": [],
+            "constant": true,
+            "functionSelector": "3a756cec",
+            "mutability": "constant",
+            "name": "MY_ADDRESS",
+            "nameLocation": "164:10:2",
+            "scope": 218,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 212,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "140:7:2",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "hexValue": "307837373737383838383939393941614141624262624363636364644464656565456646466643634363",
+              "id": 213,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "177:42:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              },
+              "value": "0x777788889999AaAAbBbbCcccddDdeeeEfFFfCcCc"
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 217,
+            "nodeType": "VariableDeclaration",
+            "src": "225:37:2",
+            "nodes": [],
+            "constant": true,
+            "functionSelector": "1f6649e3",
+            "mutability": "constant",
+            "name": "MY_UINT",
+            "nameLocation": "249:7:2",
+            "scope": 218,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 215,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "225:7:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "313233",
+              "id": 216,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "259:3:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_123_by_1",
+                "typeString": "int_const 123"
+              },
+              "value": "123"
+            },
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Constants",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          218
+        ],
+        "name": "Constants",
+        "nameLocation": "67:9:2",
+        "scope": 219,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 2
+}

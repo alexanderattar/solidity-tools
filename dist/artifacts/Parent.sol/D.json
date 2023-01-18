@@ -1,0 +1,1395 @@
+{
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "message",
+          "type": "string"
+        }
+      ],
+      "name": "Log",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "bar",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "foo",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b506102a5806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c8063c29855781461003b578063febb0f7e14610045575b600080fd5b61004361004d565b005b610043610057565b61005561005f565b565b6100556100ce565b7fcf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab6040516100be906020808252600c908201527f432e666f6f2063616c6c65640000000000000000000000000000000000000000604082015260600190565b60405180910390a161005561013d565b7fcf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab60405161012d906020808252600c908201527f432e6261722063616c6c65640000000000000000000000000000000000000000604082015260600190565b60405180910390a16100556101a6565b7fcf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab60405161019c906020808252600c908201527f412e666f6f2063616c6c65640000000000000000000000000000000000000000604082015260600190565b60405180910390a1565b7fcf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab604051610205906020808252600c908201527f422e6261722063616c6c65640000000000000000000000000000000000000000604082015260600190565b60405180910390a16100557fcf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab60405161019c906020808252600c908201527f412e6261722063616c6c6564000000000000000000000000000000000000000060408201526060019056fea2646970667358221220e14969646dede43109370e5fd006ba9d3f5be02b03a884362dd08448f408ea2364736f6c63430008110033",
+    "sourceMap": "961:470:15:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c8063c29855781461003b578063febb0f7e14610045575b600080fd5b61004361004d565b005b610043610057565b61005561005f565b565b6100556100ce565b7fcf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab6040516100be906020808252600c908201527f432e666f6f2063616c6c65640000000000000000000000000000000000000000604082015260600190565b60405180910390a161005561013d565b7fcf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab60405161012d906020808252600c908201527f432e6261722063616c6c65640000000000000000000000000000000000000000604082015260600190565b60405180910390a16100556101a6565b7fcf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab60405161019c906020808252600c908201527f412e666f6f2063616c6c65640000000000000000000000000000000000000000604082015260600190565b60405180910390a1565b7fcf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab604051610205906020808252600c908201527f422e6261722063616c6c65640000000000000000000000000000000000000000604082015260600190565b60405180910390a16100557fcf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab60405161019c906020808252600c908201527f412e6261722063616c6c6564000000000000000000000000000000000000000060408201526060019056fea2646970667358221220e14969646dede43109370e5fd006ba9d3f5be02b03a884362dd08448f408ea2364736f6c63430008110033",
+    "sourceMap": "961:470:15:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1293:65;;;:::i;:::-;;1364;;;:::i;1293:::-;1340:11;:9;:11::i;:::-;1293:65::o;1364:::-;1411:11;:9;:11::i;753:97::-;807:19;;;;;216:2:19;198:21;;;255:2;235:18;;;228:30;294:14;289:2;274:18;;267:42;341:2;326:18;;14:336;807:19:15;;;;;;;;836:7;:5;:7::i;856:101::-;910:19;;;;;557:2:19;539:21;;;596:2;576:18;;;569:30;635:14;630:2;615:18;;608:42;682:2;667:18;;355:336;910:19:15;;;;;;;;939:11;:9;:11::i;349:71::-;394:19;;;;;898:2:19;880:21;;;937:2;917:18;;;910:30;976:14;971:2;956:18;;949:42;1023:2;1008:18;;696:336;394:19:15;;;;;;;;349:71::o;626:101::-;680:19;;;;;1239:2:19;1221:21;;;1278:2;1258:18;;;1251:30;1317:14;1312:2;1297:18;;1290:42;1364:2;1349:18;;1037:336;680:19:15;;;;;;;;709:11;471:19;;;;;1580:2:19;1562:21;;;1619:2;1599:18;;;1592:30;1658:14;1653:2;1638:18;;1631:42;1705:2;1690:18;;1378:336",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "bar()": "febb0f7e",
+    "foo()": "c2985578"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"message\",\"type\":\"string\"}],\"name\":\"Log\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"bar\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"foo\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Parent.sol\":\"D\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\"]},\"sources\":{\"contracts/Parent.sol\":{\"keccak256\":\"0xbc15611ec77278e2705a224dbe84f043def0b93ffb8d7ba93ac1eb9071bc2030\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://da0a15f815df6f2cba6c6f7520bf4c46811257b26d5dc4b9296199253e4a37fd\",\"dweb:/ipfs/QmQXphvbVUHVCazMLbRa4d4nrePRWFZMxFufssx5gHnxq4\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "message",
+              "type": "string",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "Log",
+          "anonymous": false
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "bar"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "foo"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/Parent.sol": "D"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/Parent.sol": {
+        "keccak256": "0xbc15611ec77278e2705a224dbe84f043def0b93ffb8d7ba93ac1eb9071bc2030",
+        "urls": [
+          "bzz-raw://da0a15f815df6f2cba6c6f7520bf4c46811257b26d5dc4b9296199253e4a37fd",
+          "dweb:/ipfs/QmQXphvbVUHVCazMLbRa4d4nrePRWFZMxFufssx5gHnxq4"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/Parent.sol",
+    "id": 2301,
+    "exportedSymbols": {
+      "A": [
+        2209
+      ],
+      "B": [
+        2240
+      ],
+      "C": [
+        2271
+      ],
+      "D": [
+        2300
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:1400:15",
+    "nodes": [
+      {
+        "id": 2188,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:15",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 2209,
+        "nodeType": "ContractDefinition",
+        "src": "108:391:15",
+        "nodes": [
+          {
+            "id": 2192,
+            "nodeType": "EventDefinition",
+            "src": "317:26:15",
+            "nodes": [],
+            "anonymous": false,
+            "eventSelector": "cf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab",
+            "name": "Log",
+            "nameLocation": "323:3:15",
+            "parameters": {
+              "id": 2191,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2190,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "message",
+                  "nameLocation": "334:7:15",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2192,
+                  "src": "327:14:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 2189,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "327:6:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "326:16:15"
+            }
+          },
+          {
+            "id": 2200,
+            "nodeType": "FunctionDefinition",
+            "src": "349:71:15",
+            "nodes": [],
+            "body": {
+              "id": 2199,
+              "nodeType": "Block",
+              "src": "379:41:15",
+              "nodes": [],
+              "statements": [
+                {
+                  "eventCall": {
+                    "arguments": [
+                      {
+                        "hexValue": "412e666f6f2063616c6c6564",
+                        "id": 2196,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "398:14:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_aff7fe0850e7e0b7c8475c280dd429d9d5d20a3ef9ac49267457767b659bf36a",
+                          "typeString": "literal_string \"A.foo called\""
+                        },
+                        "value": "A.foo called"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_aff7fe0850e7e0b7c8475c280dd429d9d5d20a3ef9ac49267457767b659bf36a",
+                          "typeString": "literal_string \"A.foo called\""
+                        }
+                      ],
+                      "id": 2195,
+                      "name": "Log",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2192,
+                      "src": "394:3:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (string memory)"
+                      }
+                    },
+                    "id": 2197,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "394:19:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2198,
+                  "nodeType": "EmitStatement",
+                  "src": "389:24:15"
+                }
+              ]
+            },
+            "functionSelector": "c2985578",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo",
+            "nameLocation": "358:3:15",
+            "parameters": {
+              "id": 2193,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "361:2:15"
+            },
+            "returnParameters": {
+              "id": 2194,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "379:0:15"
+            },
+            "scope": 2209,
+            "stateMutability": "nonpayable",
+            "virtual": true,
+            "visibility": "public"
+          },
+          {
+            "id": 2208,
+            "nodeType": "FunctionDefinition",
+            "src": "426:71:15",
+            "nodes": [],
+            "body": {
+              "id": 2207,
+              "nodeType": "Block",
+              "src": "456:41:15",
+              "nodes": [],
+              "statements": [
+                {
+                  "eventCall": {
+                    "arguments": [
+                      {
+                        "hexValue": "412e6261722063616c6c6564",
+                        "id": 2204,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "475:14:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_01f293caacb98a5729d14272de2a7fc0f5d8b7a937c671b893f5e2e90b7239f2",
+                          "typeString": "literal_string \"A.bar called\""
+                        },
+                        "value": "A.bar called"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_01f293caacb98a5729d14272de2a7fc0f5d8b7a937c671b893f5e2e90b7239f2",
+                          "typeString": "literal_string \"A.bar called\""
+                        }
+                      ],
+                      "id": 2203,
+                      "name": "Log",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2192,
+                      "src": "471:3:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (string memory)"
+                      }
+                    },
+                    "id": 2205,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "471:19:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2206,
+                  "nodeType": "EmitStatement",
+                  "src": "466:24:15"
+                }
+              ]
+            },
+            "functionSelector": "febb0f7e",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "bar",
+            "nameLocation": "435:3:15",
+            "parameters": {
+              "id": 2201,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "438:2:15"
+            },
+            "returnParameters": {
+              "id": 2202,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "456:0:15"
+            },
+            "scope": 2209,
+            "stateMutability": "nonpayable",
+            "virtual": true,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "A",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          2209
+        ],
+        "name": "A",
+        "nameLocation": "117:1:15",
+        "scope": 2301,
+        "usedErrors": []
+      },
+      {
+        "id": 2240,
+        "nodeType": "ContractDefinition",
+        "src": "501:228:15",
+        "nodes": [
+          {
+            "id": 2225,
+            "nodeType": "FunctionDefinition",
+            "src": "523:97:15",
+            "nodes": [],
+            "body": {
+              "id": 2224,
+              "nodeType": "Block",
+              "src": "562:58:15",
+              "nodes": [],
+              "statements": [
+                {
+                  "eventCall": {
+                    "arguments": [
+                      {
+                        "hexValue": "422e666f6f2063616c6c6564",
+                        "id": 2216,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "581:14:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_7a22a72f40d467eb9d326233f9c02898ad0769feb2ba5194074da17678097b61",
+                          "typeString": "literal_string \"B.foo called\""
+                        },
+                        "value": "B.foo called"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_7a22a72f40d467eb9d326233f9c02898ad0769feb2ba5194074da17678097b61",
+                          "typeString": "literal_string \"B.foo called\""
+                        }
+                      ],
+                      "id": 2215,
+                      "name": "Log",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2192,
+                      "src": "577:3:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (string memory)"
+                      }
+                    },
+                    "id": 2217,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "577:19:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2218,
+                  "nodeType": "EmitStatement",
+                  "src": "572:24:15"
+                },
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 2219,
+                        "name": "A",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2209,
+                        "src": "606:1:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_A_$2209_$",
+                          "typeString": "type(contract A)"
+                        }
+                      },
+                      "id": 2221,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "608:3:15",
+                      "memberName": "foo",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 2200,
+                      "src": "606:5:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
+                        "typeString": "function ()"
+                      }
+                    },
+                    "id": 2222,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "606:7:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2223,
+                  "nodeType": "ExpressionStatement",
+                  "src": "606:7:15"
+                }
+              ]
+            },
+            "baseFunctions": [
+              2200
+            ],
+            "functionSelector": "c2985578",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo",
+            "nameLocation": "532:3:15",
+            "overrides": {
+              "id": 2213,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "553:8:15"
+            },
+            "parameters": {
+              "id": 2212,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "535:2:15"
+            },
+            "returnParameters": {
+              "id": 2214,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "562:0:15"
+            },
+            "scope": 2240,
+            "stateMutability": "nonpayable",
+            "virtual": true,
+            "visibility": "public"
+          },
+          {
+            "id": 2239,
+            "nodeType": "FunctionDefinition",
+            "src": "626:101:15",
+            "nodes": [],
+            "body": {
+              "id": 2238,
+              "nodeType": "Block",
+              "src": "665:62:15",
+              "nodes": [],
+              "statements": [
+                {
+                  "eventCall": {
+                    "arguments": [
+                      {
+                        "hexValue": "422e6261722063616c6c6564",
+                        "id": 2230,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "684:14:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_5a12cfe19ac77059e10524b1bcc378fb62d9c0c87c163e24493cf51450580d21",
+                          "typeString": "literal_string \"B.bar called\""
+                        },
+                        "value": "B.bar called"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_5a12cfe19ac77059e10524b1bcc378fb62d9c0c87c163e24493cf51450580d21",
+                          "typeString": "literal_string \"B.bar called\""
+                        }
+                      ],
+                      "id": 2229,
+                      "name": "Log",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2192,
+                      "src": "680:3:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (string memory)"
+                      }
+                    },
+                    "id": 2231,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "680:19:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2232,
+                  "nodeType": "EmitStatement",
+                  "src": "675:24:15"
+                },
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 2233,
+                        "name": "super",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": -25,
+                        "src": "709:5:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_super$_B_$2240_$",
+                          "typeString": "type(contract super B)"
+                        }
+                      },
+                      "id": 2235,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "715:3:15",
+                      "memberName": "bar",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 2208,
+                      "src": "709:9:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
+                        "typeString": "function ()"
+                      }
+                    },
+                    "id": 2236,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "709:11:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2237,
+                  "nodeType": "ExpressionStatement",
+                  "src": "709:11:15"
+                }
+              ]
+            },
+            "baseFunctions": [
+              2208
+            ],
+            "functionSelector": "febb0f7e",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "bar",
+            "nameLocation": "635:3:15",
+            "overrides": {
+              "id": 2227,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "656:8:15"
+            },
+            "parameters": {
+              "id": 2226,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "638:2:15"
+            },
+            "returnParameters": {
+              "id": 2228,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "665:0:15"
+            },
+            "scope": 2240,
+            "stateMutability": "nonpayable",
+            "virtual": true,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 2210,
+              "name": "A",
+              "nameLocations": [
+                "515:1:15"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 2209,
+              "src": "515:1:15"
+            },
+            "id": 2211,
+            "nodeType": "InheritanceSpecifier",
+            "src": "515:1:15"
+          }
+        ],
+        "canonicalName": "B",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          2240,
+          2209
+        ],
+        "name": "B",
+        "nameLocation": "510:1:15",
+        "scope": 2301,
+        "usedErrors": []
+      },
+      {
+        "id": 2271,
+        "nodeType": "ContractDefinition",
+        "src": "731:228:15",
+        "nodes": [
+          {
+            "id": 2256,
+            "nodeType": "FunctionDefinition",
+            "src": "753:97:15",
+            "nodes": [],
+            "body": {
+              "id": 2255,
+              "nodeType": "Block",
+              "src": "792:58:15",
+              "nodes": [],
+              "statements": [
+                {
+                  "eventCall": {
+                    "arguments": [
+                      {
+                        "hexValue": "432e666f6f2063616c6c6564",
+                        "id": 2247,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "811:14:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_2faa1e609daeae0091a9f71574dcf852f84d99195ef4efdd3eea30531747813a",
+                          "typeString": "literal_string \"C.foo called\""
+                        },
+                        "value": "C.foo called"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_2faa1e609daeae0091a9f71574dcf852f84d99195ef4efdd3eea30531747813a",
+                          "typeString": "literal_string \"C.foo called\""
+                        }
+                      ],
+                      "id": 2246,
+                      "name": "Log",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2192,
+                      "src": "807:3:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (string memory)"
+                      }
+                    },
+                    "id": 2248,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "807:19:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2249,
+                  "nodeType": "EmitStatement",
+                  "src": "802:24:15"
+                },
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 2250,
+                        "name": "A",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2209,
+                        "src": "836:1:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_A_$2209_$",
+                          "typeString": "type(contract A)"
+                        }
+                      },
+                      "id": 2252,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "838:3:15",
+                      "memberName": "foo",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 2200,
+                      "src": "836:5:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
+                        "typeString": "function ()"
+                      }
+                    },
+                    "id": 2253,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "836:7:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2254,
+                  "nodeType": "ExpressionStatement",
+                  "src": "836:7:15"
+                }
+              ]
+            },
+            "baseFunctions": [
+              2200
+            ],
+            "functionSelector": "c2985578",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo",
+            "nameLocation": "762:3:15",
+            "overrides": {
+              "id": 2244,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "783:8:15"
+            },
+            "parameters": {
+              "id": 2243,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "765:2:15"
+            },
+            "returnParameters": {
+              "id": 2245,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "792:0:15"
+            },
+            "scope": 2271,
+            "stateMutability": "nonpayable",
+            "virtual": true,
+            "visibility": "public"
+          },
+          {
+            "id": 2270,
+            "nodeType": "FunctionDefinition",
+            "src": "856:101:15",
+            "nodes": [],
+            "body": {
+              "id": 2269,
+              "nodeType": "Block",
+              "src": "895:62:15",
+              "nodes": [],
+              "statements": [
+                {
+                  "eventCall": {
+                    "arguments": [
+                      {
+                        "hexValue": "432e6261722063616c6c6564",
+                        "id": 2261,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "914:14:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_62a3c18800e777677fd9be41fd72394293bef1b7ebbfea4ef0330229c8bd9bbc",
+                          "typeString": "literal_string \"C.bar called\""
+                        },
+                        "value": "C.bar called"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_62a3c18800e777677fd9be41fd72394293bef1b7ebbfea4ef0330229c8bd9bbc",
+                          "typeString": "literal_string \"C.bar called\""
+                        }
+                      ],
+                      "id": 2260,
+                      "name": "Log",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2192,
+                      "src": "910:3:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (string memory)"
+                      }
+                    },
+                    "id": 2262,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "910:19:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2263,
+                  "nodeType": "EmitStatement",
+                  "src": "905:24:15"
+                },
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 2264,
+                        "name": "super",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": -25,
+                        "src": "939:5:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_super$_C_$2271_$",
+                          "typeString": "type(contract super C)"
+                        }
+                      },
+                      "id": 2266,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "945:3:15",
+                      "memberName": "bar",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 2208,
+                      "src": "939:9:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
+                        "typeString": "function ()"
+                      }
+                    },
+                    "id": 2267,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "939:11:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2268,
+                  "nodeType": "ExpressionStatement",
+                  "src": "939:11:15"
+                }
+              ]
+            },
+            "baseFunctions": [
+              2208
+            ],
+            "functionSelector": "febb0f7e",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "bar",
+            "nameLocation": "865:3:15",
+            "overrides": {
+              "id": 2258,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "886:8:15"
+            },
+            "parameters": {
+              "id": 2257,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "868:2:15"
+            },
+            "returnParameters": {
+              "id": 2259,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "895:0:15"
+            },
+            "scope": 2271,
+            "stateMutability": "nonpayable",
+            "virtual": true,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 2241,
+              "name": "A",
+              "nameLocations": [
+                "745:1:15"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 2209,
+              "src": "745:1:15"
+            },
+            "id": 2242,
+            "nodeType": "InheritanceSpecifier",
+            "src": "745:1:15"
+          }
+        ],
+        "canonicalName": "C",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          2271,
+          2209
+        ],
+        "name": "C",
+        "nameLocation": "740:1:15",
+        "scope": 2301,
+        "usedErrors": []
+      },
+      {
+        "id": 2300,
+        "nodeType": "ContractDefinition",
+        "src": "961:470:15",
+        "nodes": [
+          {
+            "id": 2287,
+            "nodeType": "FunctionDefinition",
+            "src": "1293:65:15",
+            "nodes": [],
+            "body": {
+              "id": 2286,
+              "nodeType": "Block",
+              "src": "1330:28:15",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 2281,
+                        "name": "super",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": -25,
+                        "src": "1340:5:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_super$_D_$2300_$",
+                          "typeString": "type(contract super D)"
+                        }
+                      },
+                      "id": 2283,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1346:3:15",
+                      "memberName": "foo",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 2256,
+                      "src": "1340:9:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
+                        "typeString": "function ()"
+                      }
+                    },
+                    "id": 2284,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1340:11:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2285,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1340:11:15"
+                }
+              ]
+            },
+            "baseFunctions": [
+              2225,
+              2256
+            ],
+            "functionSelector": "c2985578",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo",
+            "nameLocation": "1302:3:15",
+            "overrides": {
+              "id": 2279,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [
+                {
+                  "id": 2277,
+                  "name": "B",
+                  "nameLocations": [
+                    "1324:1:15"
+                  ],
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 2240,
+                  "src": "1324:1:15"
+                },
+                {
+                  "id": 2278,
+                  "name": "C",
+                  "nameLocations": [
+                    "1327:1:15"
+                  ],
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 2271,
+                  "src": "1327:1:15"
+                }
+              ],
+              "src": "1315:14:15"
+            },
+            "parameters": {
+              "id": 2276,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1305:2:15"
+            },
+            "returnParameters": {
+              "id": 2280,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1330:0:15"
+            },
+            "scope": 2300,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 2299,
+            "nodeType": "FunctionDefinition",
+            "src": "1364:65:15",
+            "nodes": [],
+            "body": {
+              "id": 2298,
+              "nodeType": "Block",
+              "src": "1401:28:15",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 2293,
+                        "name": "super",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": -25,
+                        "src": "1411:5:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_super$_D_$2300_$",
+                          "typeString": "type(contract super D)"
+                        }
+                      },
+                      "id": 2295,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1417:3:15",
+                      "memberName": "bar",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 2270,
+                      "src": "1411:9:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
+                        "typeString": "function ()"
+                      }
+                    },
+                    "id": 2296,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1411:11:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2297,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1411:11:15"
+                }
+              ]
+            },
+            "baseFunctions": [
+              2239,
+              2270
+            ],
+            "functionSelector": "febb0f7e",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "bar",
+            "nameLocation": "1373:3:15",
+            "overrides": {
+              "id": 2291,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [
+                {
+                  "id": 2289,
+                  "name": "B",
+                  "nameLocations": [
+                    "1395:1:15"
+                  ],
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 2240,
+                  "src": "1395:1:15"
+                },
+                {
+                  "id": 2290,
+                  "name": "C",
+                  "nameLocations": [
+                    "1398:1:15"
+                  ],
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 2271,
+                  "src": "1398:1:15"
+                }
+              ],
+              "src": "1386:14:15"
+            },
+            "parameters": {
+              "id": 2288,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1376:2:15"
+            },
+            "returnParameters": {
+              "id": 2292,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1401:0:15"
+            },
+            "scope": 2300,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 2272,
+              "name": "B",
+              "nameLocations": [
+                "975:1:15"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 2240,
+              "src": "975:1:15"
+            },
+            "id": 2273,
+            "nodeType": "InheritanceSpecifier",
+            "src": "975:1:15"
+          },
+          {
+            "baseName": {
+              "id": 2274,
+              "name": "C",
+              "nameLocations": [
+                "978:1:15"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 2271,
+              "src": "978:1:15"
+            },
+            "id": 2275,
+            "nodeType": "InheritanceSpecifier",
+            "src": "978:1:15"
+          }
+        ],
+        "canonicalName": "D",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          2300,
+          2271,
+          2240,
+          2209
+        ],
+        "name": "D",
+        "nameLocation": "970:1:15",
+        "scope": 2301,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 15
+}
